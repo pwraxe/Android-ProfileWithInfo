@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:contentDescription="@string/mainName"
+        android:layout_height="200dp"
+        android:src="@drawable/axe_pune"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mainName"
+        android:textSize="30sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="22sp"
+        android:layout_marginLeft="20sp"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mobile"
+        android:textSize="22sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="5sp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lang"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="5sp"
+        android:textSize="22sp"
+
+        />
+    <Button
+        android:id="@+id/Home2nxtPageBtn"
+        android:layout_width="340sp"
+        android:layout_height="wrap_content"
+        android:text="@string/nxt"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="35sp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/hireCandiBtn"
+        android:layout_width="340sp"
+        android:layout_height="wrap_content"
+        android:text="@string/hire"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
